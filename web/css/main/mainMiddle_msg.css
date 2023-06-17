@@ -1,0 +1,106 @@
+.mainIndex .middle_msg{
+    display: none;
+    position: relative;
+    width:100%;
+    height: 630px;
+    background: #f5f5f5;
+    overflow: scroll;
+}
+/*.mainIndex .middle_msg::-webkit-scrollbar {*/
+/*    width: 0;*/
+/*}*/
+/*.mainIndex .middle_msg::-webkit-scrollbar-thumb {*/
+/*    height: 40px;*/
+/*    border-radius: 10px;*/
+/*    background-color: #FFFFFF;*/
+/*    position: relative;*/
+/*    box-shadow: inset 105px -105px 47px -9px rgba(118, 116, 119,0.63);*/
+/*}*/
+/*.mainIndex .middle_msg::-webkit-scrollbar-track {*/
+/*    box-shadow: inset 0 0 0 rgba(180, 180, 180, .5);*/
+/*    border-radius: 10px;*/
+/*}*/
+
+.mainIndex .middle_msg .noMessageBoxes {
+    display: none;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100px;
+    height: 105px;
+    text-align: center;
+}
+.mainIndex .middle_msg .noMessageBoxes div{
+    margin: 10px auto;
+    font-size: 60px;
+    width: 70px;
+    height: 60px;
+    color: #aeaeae;
+}
+.mainIndex .middle_msg .noMessageBoxes p{
+    font-size: 10px;
+    width: 100px;
+    height: 15px;
+    line-height: 15px;
+    margin-top: 10px;
+    color: #aeaeae;
+}
+.mainIndex .middle_msg .haveMessageBox {
+    position: relative;
+    height: 60px;
+    width: 100%;
+}
+.mainIndex .middle_msg .haveMessageBox .numAlert_haveMessageBox {
+    position: absolute;
+    top:20px;
+    right: 15px;
+    width: 20px;
+    height: 20px;
+    color: black;
+    background: red;
+    border-radius: 10px;
+    display: none;
+    font-size: 10px;
+    text-align: center;
+    line-height: 20px;
+}
+.mainIndex .middle_msg .haveMessageBox .hidden_messageBox{
+    display: none;
+}
+.mainIndex .middle_msg .haveMessageBox .left{
+    display: block;
+    float: left;
+    width: 50px;
+    height: 50px;
+    margin: 10px 0 0 15px;
+    border-radius: 25px;
+}
+.mainIndex .middle_msg .haveMessageBox .right{
+    float: left;
+    height: 50px;
+    width: calc(100% - 75px);
+    margin: 10px 0 0 10px;
+}
+.mainIndex .middle_msg .haveMessageBox .right .rightTop{
+    width: 100%;
+    height: 10px;
+    margin-top: 10px;
+    font-size: 10px;
+    line-height: 10px;
+}
+.mainIndex .middle_msg .haveMessageBox .right .rightTop .name{
+    float: left;
+    text-align: left;
+}
+.mainIndex .middle_msg .haveMessageBox .right .rightTop .date{
+    text-align: right;
+    float: right;
+    margin-right: 10px;
+}
+.mainIndex .middle_msg .haveMessageBox .right .rightBottom{
+    width: 100%;
+    height: 10px;
+    margin-top: 10px;
+    font-size: 10px;
+}

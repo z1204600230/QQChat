@@ -1,0 +1,242 @@
+.chatIndex {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 335px;
+    height: 740px;
+    margin: 50px auto;
+    border-radius: 10px;
+    box-shadow: 10px -10px 15px -2px rgba(123, 122, 127, 0.87);
+}
+.chatIndex .hidden_chatIndex{
+    display: none;
+}
+
+p:hover {
+    cursor: default;
+}
+
+button:hover {
+    cursor: default;
+}
+
+.chatIndex .top {
+    width: 100%;
+    height: 65px;
+    background: #00b3fe;
+    display: flex;
+    justify-content: space-between;
+}
+
+.chatIndex .top div {
+    margin-top: 30px;
+    height: 15px;
+}
+
+.chatIndex .top .left {
+    margin-left: 10px;
+}
+
+.chatIndex .top .right {
+    margin-right: 10px;
+}
+
+.chatIndex .top .left {
+    width: 15px;
+    text-align: center;
+    font-size: 15px;
+    line-height: 15px;
+    color: whitesmoke;
+}
+
+.chatIndex .top .middleName {
+    width: 80px;
+    text-align: center;
+    line-height: 15px;
+    font-size: 15px;
+    color: whitesmoke;
+}
+
+.chatIndex .top .right {
+    width: 15px;
+    text-align: center;
+    font-size: 15px;
+    line-height: 15px;
+    color: whitesmoke;
+}
+
+.chatIndex .middle_chatIndex {
+    position: relative;
+    width: 100%;
+    height: 600px;
+    background: #eaedf4;
+    overflow: scroll;
+}
+
+.chatIndex .middle_chatIndex::-webkit-scrollbar {
+    width: 0;
+}
+
+.chatIndex .middle_chatIndex::-webkit-scrollbar-thumb {
+    height: 40px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    position: relative;
+    box-shadow: inset 105px -105px 47px -9px rgba(118, 116, 119, 0.63);
+}
+
+.chatIndex .middle_chatIndex::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 0 rgba(180, 180, 180, .5);
+    border-radius: 10px;
+}
+
+.chatIndex .middle_chatIndex .OneMessage1 {
+    float: left;
+    margin: 20px 0 20px 5px;
+    width: 270px;
+}
+
+.chatIndex .middle_chatIndex .OneMessage1 .img1 {
+    display: block;
+    float: left;
+    width: 50px;
+    height: 50px;
+    margin: 5px 10px 0 5px;
+    border-radius: 25px;
+}
+.chatIndex .middle_chatIndex .OneMessage1 .img_msg1 {
+    display: block;
+    float: left;
+    max-width: 150px;
+    max-height: 150px;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+.chatIndex .middle_chatIndex .OneMessage1 .max1 {
+    width: 200px;
+    margin-top: 15px;
+    float: left;
+    background: rgba(0,0,0,0);
+}
+.chatIndex .middle_chatIndex .OneMessage1 .detail1 {
+    padding:0 10px 0 10px;
+    background: white;
+    margin-top: 15px;
+    float: left;
+    width: auto;
+    height: auto;
+    font-size: 16px;
+    border-radius: 5px;
+    color: black;
+}
+
+.chatIndex .middle_chatIndex .OneMessage2 {
+    float: right;
+    margin: 20px 5px 20px 0;
+    width: 270px;
+}
+
+.chatIndex .middle_chatIndex .OneMessage2 .img2 {
+    display: block;
+    float: right;
+    width: 50px;
+    height: 50px;
+    margin: 5px 5px 0 10px;
+    border-radius: 25px;
+}
+.chatIndex .middle_chatIndex .OneMessage2 .img_msg2 {
+    display: block;
+    float: right;
+    max-width: 150px;
+    max-height: 150px;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+.chatIndex .middle_chatIndex .OneMessage2 .max2 {
+    background: rgba(0,0,0,0);
+    float: right;
+    margin-top: 15px;
+    width: 200px;
+}
+.chatIndex .middle_chatIndex .OneMessage2 .detail2 {
+    padding:0 10px 0 10px;
+    background: #1fbafc;
+    float: right;
+    margin-top: 15px;
+    /*width: calc(100% - 70px);*/
+    /*height: 20px;*/
+    width: auto;
+    height: auto;
+    font-size: 16px;
+    border-radius: 5px;
+    color: black;
+}
+
+.chatIndex .bottom {
+    position: absolute;
+    top: 665px;
+    left: 0;
+    width: 100%;
+    height: 75px;
+    background: #eaedf4;
+}
+
+.chatIndex .bottom .top_bottomInchatIndex {
+    width: 100%;
+    height: 35px;
+    margin: 5px 0 5px 0;
+}
+.chatIndex .bottom .top_bottomInchatIndex .str{
+    overflow: scroll;
+    height: 35px;
+    outline: none;
+    float: left;
+    width: 220px;
+    margin: 0 6px 0 6px;
+    display: block;
+    border-radius: 60px;
+    background: white;
+    padding: 0 15px 0 15px;
+}
+.chatIndex .bottom .top_bottomInchatIndex .fasong{
+    height: 35px;
+    float: left;
+    display: block;
+    text-align: center;
+    line-height: 35px;
+    width: 60px;
+    border-radius: 20px;
+    background: #b1effe;
+    color: white;
+}
+.chatIndex .bottom .bottom_bottomInchatIndex {
+    position: relative;
+    width: 100%;
+    height: 30px;
+}
+.chatIndex .bottom .bottom_bottomInchatIndex .file{
+    position: absolute;
+    z-index: 5;
+    top:0;
+    left: 25px;
+    opacity: 0;
+    display: block;
+    width: 30px;
+    height: 25px;
+    font-size: 10px;
+    text-align: center;
+    line-height: 25px;
+    color: #989eb4;
+}
+.chatIndex .bottom .bottom_bottomInchatIndex .cover{
+    position: absolute;
+    top:-3px;
+    left: 25px;
+    width: 30px;
+    height: 20px;
+    font-size: 30px;
+    text-align: center;
+    color: #989eb4;
+}

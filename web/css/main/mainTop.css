@@ -1,0 +1,34 @@
+.mainIndex .top{
+    width:100%;
+    height: 65px;
+    background: #00b3fe;
+}
+.mainIndex .top .img {
+    border-radius: 15px;
+    float: left;
+    width: 30px;
+    height: 30px;
+    margin: 25px 0 0 15px;
+    overflow: hidden;
+}
+.mainIndex .top .img img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+
+
+.mainIndex .top .name {
+    float: left;
+    margin: 25px 0 0 10px;
+    height: 15px;
+}
+.mainIndex .top .name p {
+    width: 100%;
+    height: 100%;
+    line-height: 15px;
+    font-size: 10px;
+    color: white;
+    margin: 0 0;
+}
